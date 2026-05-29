@@ -1,4 +1,4 @@
-# 🌿 An AI Based Agronomist (Final Year Project)
+#  An AI Based Agronomist (Final Year Project)
 
 This project was developed as part of our Bachelor of Electrical Engineering final year work at Sukkur IBA University. The main idea is to help people identify plants using a simple mobile application powered by a deep learning model trained on a locally collected dataset.
 
@@ -15,7 +15,7 @@ The goal was to build something practical for local users who often struggle wit
 
 ---
 
-# 🌱 Project Overview
+#  Project Overview
 
 Most existing plant recognition systems are trained on global datasets and often fail to correctly identify local plant species. To solve this, we built our own dataset from scratch by collecting images from Sukkur IBA University campus.
 
@@ -23,7 +23,7 @@ We then trained deep learning models using CNN (Convolutional Neural Networks) a
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 We created a custom dataset instead of using public datasets.
 
@@ -55,11 +55,11 @@ Along with images, we also manually collected plant information such as:
 
 ---
 
-# 🧠 Notebooks Description
+#  Notebooks Description
 
 This repository contains two training notebooks.
 
-## 📒 Notebook 1 — 20 Class Model
+##  Notebook 1 — 20 Class Model
 
 This model was trained on the full dataset (20 plant classes).
 
@@ -82,7 +82,7 @@ This model gave stable results but had slightly lower accuracy due to higher cla
 
 ---
 
-## 📒 Notebook 2 — 10 Class Model
+##  Notebook 2 — 10 Class Model
 
 This model was trained on a reduced dataset (10 selected classes).
 
@@ -105,7 +105,7 @@ This model performed significantly better due to fewer classes and improved feat
 
 ---
 
-# ⚖️ Comparison of Both Models
+#  Comparison of Both Models
 
 | Feature            | 20-Class Model                 | 10-Class Model           |
 | ------------------ | ------------------------------ | ------------------------ |
@@ -124,7 +124,7 @@ Reducing the number of classes significantly improved accuracy and reduced confu
 
 ---
 
-# 📱 System Architecture (Big Picture)
+#  System Architecture (Big Picture)
 
 This project is not just about training a model.
 
@@ -156,7 +156,7 @@ Features:
 
 ---
 
-# 🔄 How It Works
+#  How It Works
 
 1. User opens mobile app
 2. Takes or uploads plant image
@@ -167,16 +167,16 @@ Features:
 
 ---
 
-# 📈 Results Summary
+#  Results Summary
 
 * The system achieved good accuracy for real-world images captured from mobile devices
 * Model worked better on controlled and cropped dataset
 * Best performance achieved: ~97% accuracy (10-class model)
 * End-to-end pipeline successfully tested with mobile integration
-
+  
 ---
 
-# 💡 Key Learnings
+#  Key Learnings
 
 * Real-world dataset creation is harder than model building
 * Image quality and preprocessing have major impact on accuracy
@@ -186,10 +186,9 @@ Features:
 
 ---
 
-# 🧩 Final Note
+#  Final Note
 
 This project was built step by step from scratch — starting from collecting images in real environments, cleaning and labeling data manually, training CNN models, and finally deploying everything into a working mobile application.
 
 It represents a complete AI pipeline from data → model → deployment → user application.
-
 
